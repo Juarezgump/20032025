@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - HogarElegante</title>
+    <link rel="stylesheet" href="./css/productos.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+
+        <header class="cabecera">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Logo HogarElegante" width="200">
+                </a>
+            </div>
+            <div class="titulo">
+                <h1>Nuestros Productos</h1>
+                <p class="slogan">Calidad y estilo para tu hogar</p>
+            </div>
+            <div class="buscador">
+                <form action="#">
+                    <input type="text" placeholder="¿Qué estás buscando?">
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+        </header>
+
+        <nav class="menu-principal">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html" class="activo">Productos</a>
+            <a href="nosotros.html">Sobre Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+
+        <aside class="filtros">
+            <h2>Filtrar por</h2>
+            <div class="grupo-filtro">
+                <h3>Categorías</h3>
+                <ul>
+                    <li><a href="#sala">Artículos de Sala</a></li>
+                    <li><a href="#comedor">Artículos de Comedor</a></li>
+                    <li><a href="#interior">Decoración de Interiores</a></li>
+                    <li><a href="#exterior">Decoración de Exteriores</a></li>
+                </ul>
+            </div>
+            <div class="grupo-filtro">
+                <h3>Precio</h3>
+                <ul>
+                    <li><a href="#">Económico</a></li>
+                    <li><a href="#">Intermedio</a></li>
+                    <li><a href="#">Premium</a></li>
+                </ul>
+            </div>
+            <div class="grupo-filtro">
+                <h3>Calificación</h3>
+                <ul>
+                    <li><a href="#5estrellas">5 estrellas</a></li>
+                    <li><a href="#4estrellas">4+ estrellas</a></li>
+                    <li><a href="#3estrellas">3+ estrellas</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="catalogo" id="sala">
+            <h2>Artículos de Sala</h2>
+            <div class="grid-productos">
+                <div class="producto-card">
+                    <img src="images/sofa.jpg" alt="Sofá Moderno" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Sofá Moderno</h3>
+                        <p class="precio">Q9,999.00</p>
+                        <p class="descripcion">Sofá de 3 plazas con tapicería premium y estructura de madera sólida.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="images/sillon.jpg" alt="Sillón Reclinable" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Sillón Reclinable</h3>
+                        <p class="precio">Q8,499.00</p>
+                        <p class="descripcion">Sillón reclinable con sistema manual y reposapiés integrado.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="images/mesa_centro.jpg" alt="Mesa de Centro" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Mesa de Centro</h3>
+                        <p class="precio">Q4,299.00</p>
+                        <p class="descripcion">Mesa de centro con superficie de vidrio templado y estructura metálica.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="videos-destacados">
+            <h2>Videos de Productos Destacados</h2>
+            <div class="grid-videos">
+                <div class="video-card">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/b4P35hj4N08?si=GS3mB7cThachNsVt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Tour por nuestra colección de salas</h3>
+                </div>
+                <div class="video-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LP0NZ2ngNro?si=oixeC5TsTP0hhJTl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </video>
+                    <h3>Tips de decoración de interiores</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="comparativa">
+            <h2>Comparativa de Sofás</h2>
+            <div class="tabla-container">
+                <table class="tabla-comparativa">
+                    <thead>
+                        <tr>
+                            <th>Características</th>
+                            <th>Sofá Moderno</th>
+                            <th>Sofá Clásico</th>
+                            <th>Sofá Cama</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Precio</td>
+                            <td>Q2,999.00</td>
+                            <td>Q4,499.00</td>
+                            <td>Q6,999.00</td>
+                        </tr>
+                        <tr>
+                            <td>Material</td>
+                            <td>Poliéster/Madera</td>
+                            <td>Algodón/Madera</td>
+                            <td>Microfibra/Acero</td>
+                        </tr>
+                        <tr>
+                            <td>Plazas</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>3 (cama doble)</td>
+                        </tr>
+                        <tr>
+                            <td>Colores disponibles</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Garantía</td>
+                            <td>2 años</td>
+                            <td>3 años</td>
+                            <td>5 años</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <section class="catalogo" id="comedor">
+            <h2>Artículos de Comedor</h2>
+            <div class="grid-productos">
+                <div class="producto-card">
+                    <img src="images/mesa_comedor.jpg" alt="Mesa de Comedor" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Mesa de Comedor</h3>
+                        <p class="precio">Q7,899.00</p>
+                        <p class="descripcion">Mesa de comedor para 6 personas con cubierta de madera maciza.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="images/sillas.jpg" alt="Set de Sillas" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Set de 4 Sillas</h3>
+                        <p class="precio">Q5,499.00</p>
+                        <p class="descripcion">Set de 4 sillas para comedor con estructura metálica y asiento tapizado.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="images/vitrina.jpg" alt="Vitrina" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Vitrina</h3>
+                        <p class="precio">Q9,299.00</p>
+                        <p class="descripcion">Vitrina con iluminación LED, puertas de cristal y estructura de madera.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalogo" id="interior">
+            <h2>Decoración de Interiores</h2>
+            <div class="grid-productos">
+                <div class="producto-card">
+                    <img src="images/lampara.jpg" alt="Lámpara de Pie" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Lámpara de Pie</h3>
+                        <p class="precio">Q2,499.00</p>
+                        <p class="descripcion">Lámpara de pie con diseño moderno y luz ajustable.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="images/cuadro.jpg" alt="Set de Cuadros" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Set de Cuadros</h3>
+                        <p class="precio">Q1,899.00</p>
+                        <p class="descripcion">Set de 3 cuadros decorativos con marcos de madera.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="producto-card">
+                    <img src="images/jarron.jpg" alt="Jarrón Decorativo" class="img-producto">
+                    <div class="info-producto">
+                        <h3>Jarrón Decorativo</h3>
+                        <p class="precio">Q899.00</p>
+                        <p class="descripcion">Jarrón decorativo de cerámica con diseño contemporáneo.</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="productos-lista" id="exterior">
+            <h2>Decoración de Exteriores</h2>
+            <ul class="lista-productos">
+                <li class="item-producto">
+                    <img src="images/silla_jardin.jpg" alt="Silla de Jardín" class="img-thumbnail">
+                    <div class="info-lista">
+                        <h3>Silla de Jardín</h3>
+                        <p class="precio">Q1,499.00</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </li>
+                <li class="item-producto">
+                    <img src="images/mesa_exterior.jpg" alt="Mesa de Exterior" class="img-thumbnail">
+                    <div class="info-lista">
+                        <h3>Mesa de Exterior</h3>
+                        <p class="precio">Q2,999.00</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </li>
+                <li class="item-producto">
+                    <img src="images/maceta.jpg" alt="Maceta Decorativa" class="img-thumbnail">
+                    <div class="info-lista">
+                        <h3>Maceta Decorativa</h3>
+                        <p class="precio">Q699.00</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </li>
+                <li class="item-producto">
+                    <img src="images/parasol.jpg" alt="Parasol de Jardín" class="img-thumbnail">
+                    <div class="info-lista">
+                        <h3>Parasol de Jardín</h3>
+                        <p class="precio">Q1,899.00</p>
+                        <a href="#" class="btn-detalles">Ver detalles</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
+        <footer class="pie-pagina">
+            <div class="info-contacto">
+                <h3>Contáctanos</h3>
+                <p>Dirección: 6ta. Av. Zona 1, Ciudad de Guatemala</p>
+                <p>Teléfono: (502) 1234-5678</p>
+                <p>Email: info@hogarelegante.com</p>
+            </div>
+            <div class="enlaces-rapidos">
+                <h3>Enlaces Rápidos</h3>
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+            <div class="redes-sociales">
+                <h3>Síguenos</h3>
+                <div class="iconos-sociales">
+                    <a href="https://www.facebook.com" class="icono-social">Facebook</a>
+                    <a href="https://www.instagram.com" class="icono-social">Instagram</a>
+                    <a href="https://es.pinterest.com" class="icono-social">Pinterest</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 HogarElegante. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

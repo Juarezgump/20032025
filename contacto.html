@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - HogarElegante</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <header class="cabecera">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Logo HogarElegante" width="200">
+                </a>
+            </div>
+            <div class="titulo">
+                <h1>Contacto</h1>
+                <p class="slogan">Estamos para ayudarte</p>
+            </div>
+            <div class="buscador">
+                <form action="#" method="get">
+                    <input type="text" placeholder="¿Qué estás buscando?">
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+        </header>
+
+        <nav class="menu-principal">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="nosotros.html">Sobre Nosotros</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+        </nav>
+
+        <section class="bienvenida">
+            <h2>¿Cómo podemos ayudarte?</h2>
+            <p>En HogarElegante nos encanta escuchar a nuestros clientes.</p>
+            <p>Ya sea que tengas una pregunta sobre nuestros productos, necesites asesoría para decorar tu hogar o quieras enviarnos tus comentarios, estamos aquí para ti.</p> 
+            <p>Completa el formulario a continuación o utiliza cualquiera de nuestros medios de contacto.</p>
+        </section>
+
+        <div class="contenido-contacto">
+            <section class="formulario-contacto">
+                <h2>Envíanos un mensaje</h2>
+                <form action="#" class="form-grid">
+                    <div class="form-grupo">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-grupo">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </div>
+                    <div class="form-grupo full-width">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                    </div>
+                    <div class="form-grupo full-width">
+                        <fieldset>
+                            <legend>¿Sobre qué te gustaría recibir información?</legend>
+                            <div class="opciones-checkbox">
+                                <div class="opcion">
+                                    <input type="checkbox" id="info-productos" name="informacion" value="productos">
+                                    <label for="info-productos">Productos nuevos</label>
+                                </div>
+                                <div class="opcion">
+                                    <input type="checkbox" id="info-ofertas" name="informacion" value="ofertas">
+                                    <label for="info-ofertas">Ofertas y promociones</label>
+                                </div>
+                                <div class="opcion">
+                                    <input type="checkbox" id="info-eventos" name="informacion" value="eventos">
+                                    <label for="info-eventos">Eventos y talleres</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="form-grupo full-width">
+                        <button type="submit" class="btn-enviar">Enviar mensaje</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="info-de-contacto">
+                <h2>Información de Contacto</h2>
+                <div class="contacto-detalles">
+                    <div class="contacto-item">
+                        <h3>Dirección:</h3>
+                        <p>6ta. Av. Zona 1, Ciudad de Guatemala</p>
+                    </div>
+                    <div class="contacto-item">
+                        <h3>Teléfono:</h3>
+                        <p>Central: (502) 8765-4321</p>
+                        <p>Ventas: (502) 9765-3124</p>
+                    </div>
+                    <div class="contacto-item">
+                        <h3>Email:</h3>
+                        <p>info@hogarelegante.com</p>
+                        <p>ventas@hogarelegante.com</p>
+                    </div>
+                    <div class="contacto-item">
+                        <h3>Redes Sociales:</h3>
+                        <div class="redes-contacto">
+                            <a href="#" class="red-social">Facebook</a>
+                            <a href="#" class="red-social">Instagram</a>
+                            <a href="#" class="red-social">Pinterest</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="horarios">
+                    <h3>Horarios de Atención</h3>
+                    <table class="tabla-horarios">
+                        <tr>
+                            <th>Día</th>
+                            <th>Horario</th>
+                        </tr>
+                        <tr>
+                            <td>Lunes - Viernes</td>
+                            <td>10:00 AM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sábados</td>
+                            <td>10:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Domingos</td>
+                            <td>11:00 AM - 4:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Días festivos</td>
+                            <td>Cerrado</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="mapa">
+                    <h3>Nuestra Ubicación</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15445.674467578156!2d-90.53798400000001!3d14.5752064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sgt!4v1742951279911!5m2!1ses-419!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="preguntas-grid">
+                <div class="pregunta">
+                    <h3>¿Cómo puedo realizar un pedido?</h3>
+                    <p>Puedes realizar tu pedido a través de nuestra tienda online, por teléfono o visitando cualquiera de nuestras sucursales físicas.</p>
+                </div>
+                <div class="pregunta">
+                    <h3>¿Cuál es el tiempo de entrega?</h3>
+                    <p>El tiempo de entrega varía según el producto y tu ubicación. Generalmente, realizamos entregas en un plazo de 3 a 7 días hábiles en zona metropolitana.</p>
+                </div>
+                <div class="pregunta">
+                    <h3>¿Ofrecen servicios de diseño de interiores?</h3>
+                    <p>Sí, contamos con diseñadores profesionales que pueden ayudarte a crear el espacio perfecto para tu hogar.</p>
+                    <p><strong>NOTA:</strong>El servicio tiene un costo adicional.</p>
+                </div>
+                <div class="pregunta">
+                    <h3>¿Cuál es su política de devoluciones?</h3>
+                    <p>Aceptamos devoluciones dentro de los 15 días posteriores a la compra, siempre que el producto esté en perfectas condiciones y con su embalaje original.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="pie-pagina">
+            <div class="info-contacto">
+                <h3>Contáctanos</h3>
+                <p>Dirección: 6ta. Av. Zona 1, Ciudad de Guatemala</p>
+                <p>Teléfono: (502) 1234-5678</p>
+                <p>Email: info@hogarelegante.com</p>
+            </div>
+            <div class="enlaces-rapidos">
+                <h3>Enlaces Rápidos</h3>
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+            <div class="redes-sociales">
+                <h3>Síguenos</h3>
+                <div class="iconos-sociales">
+                    <a href="https://www.facebook.com" class="icono-social">Facebook</a>
+                    <a href="https://www.instagram.com" class="icono-social">Instagram</a>
+                    <a href="https://es.pinterest.com" class="icono-social">Pinterest</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 HogarElegante. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
