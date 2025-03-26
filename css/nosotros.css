@@ -347,7 +347,7 @@ ul {
     background-color: #e0e7f5;
 }
 
-/* Galería */
+
 .galeria {
     grid-area: galeria;
     background-color: white;
@@ -389,7 +389,7 @@ ul {
     object-fit: cover;
 }
 
-/* Sucursales */
+
 .sucursales {
     grid-area: sucursales;
     background-color: white;
@@ -428,7 +428,7 @@ ul {
     margin-bottom: 10px;
 }
 
-/* Footer */
+
 .pie-pagina {
     grid-area: pie;
     display: grid;
